@@ -19,7 +19,7 @@
         /* Navigation Bar */
         
         h2 {
-            font-weight: bold;
+            font-weight: 900;
             font-size: 3rem;
             line-height: 1.5;
         }
@@ -124,13 +124,24 @@
         .pricing-col {
             padding: 3% 2%;
         }
+        /* phone-size update */
         
         @media (max-width:1028px) {
             #title {
-                text-emphasis: center;
+                text-align: center;
             }
             .title-image {
                 position: static;
                 transform: rotate(0);
             }
+        }
+        
+        #cta {
+            text-align: center;
+            background-color: #f73653;
+            color: #fff;
+        }
+        
+        .footer-text {
+            margin: 20px 100px;
         }
