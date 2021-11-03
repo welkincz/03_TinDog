@@ -140,8 +140,14 @@
             text-align: center;
             background-color: #f73653;
             color: #fff;
+            padding: 7% 15%;
         }
         
-        .footer-text {
-            margin: 20px 100px;
+        #footer {
+            padding: 7% 15%;
+            text-align: center;
+        }
+        
+        .footer-icon {
+            margin: 20px 10px;
         }
